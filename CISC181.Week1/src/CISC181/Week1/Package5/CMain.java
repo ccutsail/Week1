@@ -20,6 +20,8 @@ public class CMain {
 		CastExample1();
 		CastExample2();
 		CastExample3();
+		
+		// Test Comment
 
 	}
 
