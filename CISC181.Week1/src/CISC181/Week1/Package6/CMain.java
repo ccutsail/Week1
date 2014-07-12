@@ -4,15 +4,19 @@ package CISC181.Week1.Package6;
  * 
  * Things to note:
  * 
- * Example has two methods, SimpleIf and SimpleIfElse.  Notice that the expression being evaluated with the 'if' statement is surrounded by parenthesis?
+ * Example has two 'if' methods, SimpleIf and SimpleIfElse.  Notice that the expression being evaluated with the 'if' statement is surrounded by parenthesis?
  * Look at == comparison.  A single = sign means assignment, two equal signs means compare.  
  * 
- * The second method has an 'if/else' statement nested inside an if statement!  It can get ugly... but it's syntax is OK.
+ * The second 'if' method has an 'if/else' statement nested inside an if statement!  It can get ugly... but it's syntax is OK.
+ * 
+ * At the end is a 'Switch' method.  The idea behind the 'Switch' method is simplify complicated if/then statements.  Imagine having a number from 1-12 and trying
+ * to determine month of the year?  What a pain it would be to do with if/then/else... and a pain to read.
  * 
  * Things to consider:
  * 
  * Does the second 'if' statement in SimpleIf need curly braces {} around the statement after the 'if'?  Why or why not?  When do you NEED curly braces?
  * 
+ * What does 'break' do?  Is it needed?  Take the 'break' out of the switch statement and see what happens.
  */
 
 import java.util.Scanner;
