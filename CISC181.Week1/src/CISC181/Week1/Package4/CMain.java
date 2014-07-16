@@ -1,5 +1,10 @@
 package CISC181.Week1.Package4;
 
+/**
+ * @category - Chapter 2 (Elementary Programming)
+ * @author Dad
+ *
+ */
 /*
  * Notes - Introduction to numeric datatypes.  
  * 

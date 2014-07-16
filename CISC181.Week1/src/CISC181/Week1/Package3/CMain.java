@@ -1,5 +1,11 @@
 package CISC181.Week1.Package3;
 
+/**
+ * @category - Chapter 2 (Elementary Programming)
+ * @author Dad
+ *
+ */
+
 /*
  * Notes - Introduction to Scanner
  * 
