@@ -36,6 +36,8 @@ public class CMain {
 		int b = input.nextInt();
 		
 		System.out.println(a + " + " + b + " = " + AddNumbers(a,b));
+		
+		input.close();
 	}
 	
 	private static int AddNumbers(int a, int b)

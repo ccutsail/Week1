@@ -18,6 +18,7 @@ package CISC181.Week1.Package4;
 
 public class CMain {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
 		byte b = 1;
