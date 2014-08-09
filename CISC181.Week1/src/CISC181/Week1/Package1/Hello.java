@@ -19,6 +19,12 @@ public class Hello {
 	public static void main(String[] args) {
 
 		System.out.println("Hello World");
+
+		double amount = 12618.98;
+		double interestRate = 0.0013;
+		double interest = amount * interestRate;
+		System.out.println("Interest is " + interest);
+		System.out.printf("%3.1f", 1234.56);
 	}
 
 }

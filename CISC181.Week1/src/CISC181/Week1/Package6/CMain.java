@@ -1,4 +1,5 @@
 package CISC181.Week1.Package6;
+
 /*
  * Notes - Introduction to 'If' selection
  * 
@@ -21,10 +22,16 @@ public class CMain {
 
 	public static void main(String[] args) {
 
+		
 		SimpleIf();
-		
+
 		SimpleIfElse();
-		
+
+		Boolean b = true;
+		SimpleBoolIf(b);
+		b = false;
+		SimpleBoolIf(b);
+
 	}
 
 	private static void SimpleIf() {
@@ -42,10 +49,9 @@ public class CMain {
 
 		if (iNumber < 5)
 			System.out.println("Number Less Than 5");
-		
-		input.close();
+
 	}
-	
+
 	private static void SimpleIfElse() {
 		Scanner input = new Scanner(System.in);
 
@@ -53,23 +59,29 @@ public class CMain {
 		int iNumber = input.nextInt();
 
 		if (iNumber > 5) {
-			if (iNumber > 8){
-				System.out.println("Number Greater Than 8");				
+			if (iNumber > 8) {
+				System.out.println("Number Greater Than 8");
+			} else {
+				System.out.println("Number Between 5 and 8");
 			}
-			else
-			{
-				System.out.println("Number Between 5 and 8");	
-			};
-			
-		}
-		else if (iNumber == 5) {
+			;
+
+		} else if (iNumber == 5) {
 			System.out.println("Number is 5");
+		} else if (iNumber < 5) {
+			System.out.println("Number Less Than 5");
 		}
-		else if (iNumber < 5) {
-			System.out.println("Number Less Than 5");			
-		}		
+
+
+
+	}
+
+	private static void SimpleBoolIf(Boolean b) {
 		
-		input.close();
-		
-	}	
+		if (b)
+			System.out.println("Item is true");
+		else if (!b)
+			System.out.println("Item is false");
+	}
+
 }
